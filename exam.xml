@@ -1,0 +1,46 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="1">    <!-- Suite completa -->
+    <parameter name="browser" value="Chrome"/>
+    <parameter name="destination" value="LAX"/>
+    <parameter name="origin" value="LAS"/>
+    <parameter name="sortByType" value="Duration"/>
+    <parameter name="sortByDir" value="Shortest"/>
+    <parameter name="sortByType2" value="Price"/>
+    <parameter name="sortByDir2" value="Shortest"/>
+    <parameter name="cityForHotels" value="Montevideo, Uruguay"/>
+    <parameter name="url" value="https://www.travelocity.com/"/>
+    <!--
+    <test name="TestCase1">
+        <groups>
+            <run>
+                <include name="excercise1"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="com.jag.finalExam"/>
+        </packages>
+    </test>
+    <test name="TestCase2">
+        <groups>
+            <run>
+                <include name="excercise2"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="com.jag.finalExam"/>
+        </packages>
+    </test>
+</suite>
+        -->
+<test name="TestCase3">
+<groups>
+    <run>
+        <include name="excercise3"/>
+    </run>
+</groups>
+<packages>
+    <package name="com.jag.finalExam"/>
+</packages>
+</test>
+        </suite>
